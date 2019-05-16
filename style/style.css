@@ -1,0 +1,66 @@
+.whole {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: rgb(57, 255, 180)
+}
+
+.calendar_grid {
+  background-color: rgb(241, 7, 0);
+  height: 300px;
+  margin-top: 5px;
+  flex: 0 0 300px;
+}
+
+.popup {
+  flex: 1 1 auto;
+  background-color: rgb(255, 215, 214);
+  margin-top: 5px;
+}
+
+.popup_article {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: rgb(186, 111, 109);
+  margin-right: 5px;
+}
+
+.popup_article_image {
+  background-color: rgb(254, 125, 122);
+  margin-right: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.popup_article_name {
+  background-color: rgb(254, 125, 122);
+  margin-right: 5px;
+}
+
+.popup_article_dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(254, 125, 122);
+  margin-right: 5px;
+  width: 200px;
+}
+
+.date_from{
+  background-color: rgb(208, 26, 190);
+  width:80px;
+  height: 40px;
+}
+
+.date_to{
+  background-color: rgb(208, 26, 190);
+  width:80px;
+  height: 40px;
+}
+
+.popup_article_delete {
+  background-color: rgb(254, 125, 122);
+  margin-right: 5px;
+}
