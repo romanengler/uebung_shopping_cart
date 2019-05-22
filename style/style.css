@@ -1,34 +1,51 @@
 .whole {
   display: flex;
-  flex-direction: row;
+  flex-direction:column;
   flex-wrap: nowrap;
-  background-color: rgb(57, 255, 180)
+  /* background-color: rgb(57, 255, 180) */
+    font-family: 'Roboto';
 }
 
 .calendar {
-  background-color: rgb(241, 7, 0);
-  height: 300px;
-  width: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  background-color: rgb(255, 255, 255);
+  height: 400px;
   margin-top: 5px;
-  flex: 0 0 300px;
+  flex: 0 0 400px;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  background-color: #2196F3;
+  background-color: rgb(57, 255, 180);
+  height: 400px;
+  width: 400px;
 }
 
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
+  background-color: rgba(233, 233, 233, 0.8);
+  border: 1px solid rgba(255, 255, 255, 1);
   font-size: 30px;
   text-align: center;
 }
 
+.grid-item_select {
+  background-color: rgba(216, 255, 172, 0.8);
+  border: 1px solid rgba(255, 255, 255, 1);
+  font-size: 30px;
+  text-align: center;
+}
+
+.booking {
+background-color: rgb(255, 235, 130)
+
+}
+
 .popup {
   flex: 1 1 auto;
-  background-color: rgb(255, 215, 214);
+  /* background-color: rgb(255, 215, 214); */
   margin-top: 5px;
 }
 
