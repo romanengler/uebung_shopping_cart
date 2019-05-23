@@ -1,53 +1,58 @@
 .whole {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   flex-wrap: nowrap;
-  /* background-color: rgb(57, 255, 180) */
-    font-family: 'Roboto';
+  font-family: 'Roboto';
+  background-color: rgb(15, 23, 46);
 }
+
+.Title{
+color: rgb(255, 255, 255);
+margin-left: 25px;
+}
+
 
 .calendar {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  background-color: rgb(255, 255, 255);
+  /* background-color: rgb(255, 255, 255); */
   height: 400px;
   margin-top: 5px;
+  margin: 25px 25px 25px 25px;
   flex: 0 0 400px;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  background-color: rgb(57, 255, 180);
+  /* background-color: rgb(57, 255, 180); */
   height: 400px;
   width: 400px;
 }
 
 .grid-item {
-  background-color: rgba(233, 233, 233, 0.8);
+  background-color: rgba(233, 233, 233, 1);
   border: 1px solid rgba(255, 255, 255, 1);
   font-size: 30px;
   text-align: center;
 }
 
 .grid-item_select {
-  background-color: rgba(216, 255, 172, 0.8);
+  background-color: rgba(216, 255, 172, 1);
   border: 1px solid rgba(255, 255, 255, 1);
   font-size: 30px;
   text-align: center;
 }
 
 .booking {
-background-color: rgb(255, 235, 130)
-
+  background-color: rgb(255, 235, 130)
 }
 
 .popup {
   flex: 1 1 auto;
   /* display: none; */
   /* background-color: rgb(255, 215, 214); */
-  margin-top: 5px;
 }
 
 .popup img {
@@ -61,20 +66,21 @@ background-color: rgb(255, 235, 130)
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  background-color: rgb(186, 111, 109);
+  justify-content: flex-start;
+  background-color: rgba(216, 255, 172, 0.8);
+  border: 1px solid rgba(255, 255, 255, 1);
   margin-right: 5px;
 }
 
 .popup_article_image {
-  background-color: rgb(254, 125, 122);
+  /* background-color: rgb(254, 125, 122); */
   margin-right: 5px;
   height: 40px;
   width: 40px;
 }
 
 .popup_article_name {
-  background-color: rgb(254, 125, 122);
+  /* background-color: rgb(254, 125, 122); */
   margin-right: 5px;
 }
 
@@ -82,20 +88,20 @@ background-color: rgb(255, 235, 130)
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  background-color: rgb(254, 125, 122);
+  /* background-color: rgb(254, 125, 122); */
   margin-right: 5px;
   width: 200px;
 }
 
-.date_from{
-  background-color: rgb(208, 26, 190);
-  width:80px;
+.date_from {
+  background-color: rgb(255, 255, 255);
+  width: 80px;
   height: 40px;
 }
 
-.date_to{
-  background-color: rgb(208, 26, 190);
-  width:80px;
+.date_to {
+  background-color: rgb(255, 255, 255);
+  width: 80px;
   height: 40px;
 }
 
