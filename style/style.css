@@ -6,11 +6,10 @@
   background-color: rgb(15, 23, 46);
 }
 
-.Title{
-color: rgb(255, 255, 255);
-margin-left: 25px;
+.Title {
+  color: rgb(255, 255, 255);
+  margin-left: 25px;
 }
-
 
 .calendar {
   display: flex;
@@ -40,19 +39,21 @@ margin-left: 25px;
 
 .grid-item_select {
   background-color: rgba(216, 255, 172, 1);
-  border: 1px solid rgba(255, 255, 255, 1);
-  font-size: 30px;
-  text-align: center;
+  cursor: pointer;
 }
 
 .booking {
-  background-color: rgb(255, 235, 130)
+  background-color: rgb(255, 235, 130);
 }
 
 .popup {
   flex: 1 1 auto;
-  /* display: none; */
-  /* background-color: rgb(255, 215, 214); */
+  opacity: 0;
+}
+
+.is-shown {
+  flex: 1 1 auto;
+  opacity: 1;
 }
 
 .popup img {
