@@ -138,7 +138,7 @@ h1 {
   margin-right: 5px;
 }
 
-.popup_article_image {
+.popup_article_image{
   /* background-color: rgb(254, 125, 122); */
   margin-right: 10px;
   height: 40px;
@@ -210,6 +210,12 @@ h1 {
   height: 100px;
   margin: 25px 25px 25px 25px;
 }
+
+
+.is-hidden{
+  display: none;
+}
+
 
 @media (max-width: 850px) {
   .calender {
