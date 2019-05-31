@@ -43,8 +43,7 @@ $(document).ready(function() {
     var $parentOfClickedButton = $target.closest(".popup_article");
 
     console.log($parentOfClickedButton);
-
-  });
+});
 
 
 

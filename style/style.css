@@ -108,6 +108,10 @@ h1 {
   transform: translateX(-10%);
 }
 
+.cart{
+  list-style: none;
+  }
+
 .is_shown, .is_shown-by-hover {
   flex: 1 1 auto;
   opacity: 1;
@@ -181,16 +185,11 @@ h1 {
 
 .popup_article_delete {
   background-color: rgb(254, 125, 122);
-  margin-right: 5px;
   flex-basis: 10%;
-}
-
-.popup_article_delete {
   text-align: center;
-  text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 4px 5px;
   cursor: pointer;
   border-radius: 8px;
   height: 30px;
