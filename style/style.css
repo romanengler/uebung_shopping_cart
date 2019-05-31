@@ -34,7 +34,7 @@ flex-basis: 30%;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  /* background-color: rgb(255, 255, 255); */
+
   height: 400px;
   margin-top: 5px;
   margin: 25px 25px 25px 25px;
@@ -46,21 +46,36 @@ flex-basis: 30%;
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
-  /* background-color: rgb(57, 255, 180); */
   height: 400px;
   min-width: 400px;
+  z-index: 10;
 }
 
 .grid-item {
-  background-color: rgba(233, 233, 233, 1);
-  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: rgba(217, 212, 212, 1);
+  border: 3px solid rgb(15, 23, 46);
   font-size: 30px;
   text-align: center;
+  transition: background-color 0.5s ease;
+}
+
+.grid-item:hover {
+  background-color: rgb(149, 149, 149);
 }
 
 .grid-item_select {
   background-color: rgba(216, 255, 172, 1);
   cursor: pointer;
+  transition: background-color 0.5s ease;
+}
+
+.grid-item_select:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.grid-item.grid-item_select:hover {
+  /* border-bottom: solid; */
+  /* border-color: rgb(255, 0, 245); */
 }
 
 .booking {
@@ -71,11 +86,14 @@ flex-basis: 30%;
   flex: 1 1 auto;
   opacity: 0;
   max-width: 600px;
+  transition: all 0.2s ease-in;
+  transform: translateX(-10%);
 }
 
 .is-shown, .is-shown-by-hover {
   flex: 1 1 auto;
   opacity: 1;
+  transform: none;
 }
 
 .popup img {
