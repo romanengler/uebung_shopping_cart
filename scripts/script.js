@@ -8,6 +8,7 @@ $(document).ready(function() {
     console.log("click");
 
     $(".popup").toggleClass("is_shown")
+    $(".grid_item_select").toggleClass("hover_backbround")
   });
 
 

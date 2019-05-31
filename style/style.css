@@ -114,6 +114,11 @@ h1 {
   transform: none;
 }
 
+.hover_backbround {
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+}
+
 .popup img {
   width: 100%;
   height: 100%;
