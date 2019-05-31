@@ -1,4 +1,7 @@
-
+.header {
+  font-family: 'Roboto';
+  font-size: 25px;
+}
 
 .whole {
   display: flex;
@@ -10,8 +13,11 @@
 
 .header {
   display: flex;
-background-color: rgba(216, 255, 172, 1);
+  background-color: rgba(216, 255, 172, 1);
+}
 
+h1 {
+  margin-left: 25px;
 }
 
 .Title {
@@ -20,28 +26,40 @@ background-color: rgba(216, 255, 172, 1);
   flex-wrap: nowrap;
   justify-content: space-between;
   flex-grow: 2;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   margin-left: 25px;
   width: 400px;
 }
 
-.month  {
-flex-basis: 30%;
+.month {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+  flex-basis: 30%;
+  background-color: rgba(217, 212, 212, 1);
 }
 
+.month.present_month {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.last_month:hover {
+  background-color: rgb(149, 149, 149);
+}
+
+.next_month:hover {
+  background-color: rgb(149, 149, 149);
+}
 
 .calendar {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-
   height: 400px;
   margin-top: 5px;
   margin: 25px 25px 25px 25px;
   flex: 0 0 400px;
 }
-
-
 
 .grid-container {
   display: grid;
@@ -153,7 +171,7 @@ flex-basis: 30%;
 }
 
 .between_dates {
-margin: 0px 5px 0px 5px;
+  margin: 0px 5px 0px 5px;
 }
 
 .popup_article_delete {
@@ -175,7 +193,6 @@ margin: 0px 5px 0px 5px;
   align-self: center;
 }
 
-
 .bottom {
   display: flex;
   flex-direction: column;
@@ -183,8 +200,15 @@ margin: 0px 5px 0px 5px;
   background-color: rgb(15, 23, 46);
 }
 
-.boxes{
-background-color: rgba(233, 233, 233, 1);
-height: 100px;
-margin: 25px 25px 25px 25px;
+.boxes {
+  background-color: rgba(233, 233, 233, 1);
+  height: 100px;
+  margin: 25px 25px 25px 25px;
+}
+
+@media (max-width: 850px) {
+  .calender {
+    display: flex;
+    flex-direction: column;
+  }
 }
