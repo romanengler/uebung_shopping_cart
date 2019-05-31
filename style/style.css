@@ -20,7 +20,7 @@ h1 {
   margin-left: 25px;
 }
 
-.Title {
+.month_header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -61,7 +61,7 @@ h1 {
   flex: 0 0 400px;
 }
 
-.grid-container {
+.grid_container {
   display: grid;
   grid-template-columns: auto auto auto auto auto auto auto;
   height: 400px;
@@ -69,7 +69,7 @@ h1 {
   z-index: 10;
 }
 
-.grid-item {
+.grid_item {
   background-color: rgba(217, 212, 212, 1);
   border: 3px solid rgb(15, 23, 46);
   font-size: 30px;
@@ -77,21 +77,21 @@ h1 {
   transition: background-color 0.5s ease;
 }
 
-.grid-item:hover {
+.grid_item:hover {
   background-color: rgb(149, 149, 149);
 }
 
-.grid-item_select {
+.grid_item_select {
   background-color: rgba(216, 255, 172, 1);
   cursor: pointer;
   transition: background-color 0.5s ease;
 }
 
-.grid-item_select:hover {
+.grid_item_select:hover {
   background-color: rgb(255, 255, 255);
 }
 
-.grid-item.grid-item_select:hover {
+.grid_item.grid_item_select:hover {
   /* border-bottom: solid; */
   /* border-color: rgb(255, 0, 245); */
 }
@@ -108,7 +108,7 @@ h1 {
   transform: translateX(-10%);
 }
 
-.is-shown, .is-shown-by-hover {
+.is_shown, .is_shown-by-hover {
   flex: 1 1 auto;
   opacity: 1;
   transform: none;
