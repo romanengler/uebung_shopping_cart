@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>calendar</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+  <link href="./style/style.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="./scripts/script.js"></script>
+</head>
+
+<body>
+  <div class="header">
+    <h1>Leihs</h1>
+  </div>
+
+
+  <div class="whole">
+
+    <div class="month_header">
+      <div class="month last_month">
+        <h3>Juli</h3>
+      </div>
+      <div class="month present_month">
+        <h3>August</h3>
+      </div>
+      <div class="month next_month">
+        <h3>September</h3>
+      </div>
+
+
+    </div>
+
+    <div class="calendar">
+
+      <div class="grid_container">
+        <div class="grid_item">1</div>
+        <div class="grid_item">2</div>
+        <div class="grid_item">3</div>
+        <div class="grid_item">4</div>
+        <div class="grid_item">5</div>
+        <div class="grid_item">6</div>
+        <div class="grid_item">7</div>
+        <div class="grid_item">8</div>
+        <div class="grid_item">9</div>
+
+        <div class="grid_item grid_item_select">10</div>
+        <div class="grid_item grid_item_select">11</div>
+        <div class="grid_item grid_item_select">12</div>
+        <div class="grid_item grid_item_select">13</div>
+        <div class="grid_item grid_item_select">14</div>
+        <div class="grid_item grid_item_select">15</div>
+        <div class="grid_item grid_item_select">16</div>
+        <div class="grid_item grid_item_select">17</div>
+        <div class="grid_item grid_item_select">18</div>
+
+        <div class="grid_item">19</div>
+        <div class="grid_item">20</div>
+        <div class="grid_item">21</div>
+        <div class="grid_item">22</div>
+        <div class="grid_item">23</div>
+        <div class="grid_item">24</div>
+        <div class="grid_item">25</div>
+        <div class="grid_item">26</div>
+        <div class="grid_item">27</div>
+        <div class="grid_item">28</div>
+        <div class="grid_item">29</div>
+        <div class="grid_item">30</div>
+        <div class="grid_item">31</div>
+
+      </div>
+
+      <div class="popup">
+        <ul class= "cart">
+          <li>
+
+            <div class="popup_article">
+              <div class="popup_article_image">
+                <img src="./images/MK055XPRO3_BHQ2.jpg" alt="Foto Stativ">
+              </div>
+
+              <div class="popup_article_name">
+                <p>Fotostativ Manfrotto 055XPRO3/BHQ2 Kugelkopf</p>
+              </div>
+
+              <div class="popup_article_dates">
+                <div class="date_from">
+                  <p>10.08.2019</p>
+                </div>
+
+                <div class="between_dates">
+                  <span>-</span>
+                </div>
+
+                <div class="date_to">
+                  <p>18.08.2019</p>
+                </div>
+              </div>
+
+              <button class="popup_article_delete">x
+
+              </button>
+            </div>
+
+
+          </li>
+
+          <li>
+            <div class="popup_article">
+              <div class="popup_article_image">
+                <img src="./images/8362_eos1000dfront.jpg" alt="Foto Camera">
+              </div>
+
+              <div class="popup_article_name">
+                <p>DSLR Canon EOS 1000D (18-55mm)</p>
+              </div>
+
+              <div class="popup_article_dates">
+                <div class="date_from">
+                  <p>11.08.2019</p>
+                </div>
+
+                <div class="between_dates">
+                  <span>-</span>
+                </div>
+
+                <div class="date_to">
+                  <p>18.08.2019</p>
+                </div>
+              </div>
+
+              <button class="popup_article_delete">x
+
+              </button>
+            </div>
+          </li>
+
+          <li class="is-hidden cart-item popup_article" id="camera">
+            <div class="popup_article">
+
+
+              <div class="popup_article_image">
+                <img src="./images/8362_eos1000dfront.jpg" alt="Foto Camera">
+              </div>
+
+              <div class="popup_article_name">
+                <p>DSLR Canon EOS 1000D (18-55mm)</p>
+              </div>
+
+              <div class="popup_article_dates">
+                <div class="date_from">
+                  <p>11.08.2019</p>
+                </div>
+
+                <div class="between_dates">
+                  <span>-</span>
+                </div>
+
+                <div class="date_to">
+                  <p>18.08.2019</p>
+                </div>
+                <button class="popup_article_delete">x</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="is-hidden cart-item" id="camera2">
+            <div class="popup_article">
+
+
+              <div class="popup_article_image">
+                <img src="./images/8362_eos1000dfront.jpg" alt="Foto Camera">
+              </div>
+
+              <div class="popup_article_name">
+                <p>DSLR Canon EOS 1000D (18-55mm)</p>
+              </div>
+
+              <div class="popup_article_dates">
+                <div class="date_from">
+                  <p>11.08.2019</p>
+                </div>
+
+                <div class="between_dates">
+                  <span>-</span>
+                </div>
+
+                <div class="date_to">
+                  <p>18.08.2019</p>
+                </div>
+                <button class="popup_article_delete">x</button>
+              </div>
+            </div>
+          </li>
+
+          <li class="is-hidden cart-item" id="camera3">
+            <div class="popup_article">
+
+
+              <div class="popup_article_image">
+                <img src="./images/8362_eos1000dfront.jpg" alt="Foto Camera">
+              </div>
+
+              <div class="popup_article_name">
+                <p>DSLR Canon EOS 1000D (18-55mm)</p>
+              </div>
+
+              <div class="popup_article_dates">
+                <div class="date_from">
+                  <p>11.08.2019</p>
+                </div>
+
+                <div class="between_dates">
+                  <span>-</span>
+                </div>
+
+                <div class="date_to">
+                  <p>18.08.2019</p>
+                </div>
+                <button class="popup_article_delete">x</button>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+    <div class="bottom cart">
+      <div class="boxes">
+        <div class="item">
+          <span>Camera</span>
+          <button class="js-button" data-item="camera">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="boxes">
+        <div class="item">
+          <span>camera2</span>
+          <button class="js-button" data-item="camera2">Add to cart</button>
+        </div>
+      </div>
+
+      <div class="boxes">
+        <div class="item">
+          <span>camera3</span>
+          <button class="js-button" data-item="camera3">Add to cart</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+</body>
+
+</html>
