@@ -43,27 +43,27 @@ $(document).ready(function() {
     var $parentOfClickedButton = $target.closest(".popup_article");
 
     console.log($parentOfClickedButton);
-});
+  });
 
 
 
 
   $('.js-button').click(function(event) {
-  $button = $(event.target);
+    $button = $(event.target);
 
-  // change the buttons text
-  $button.text('Added');
+    // change the buttons text
+    $button.text('Added');
 
-  // get data attribute to revel correct item in cart
-  var itemName = $button.attr('data-item');
-  console.log('itemName: ', itemName);
+    // get data attribute to revel correct item in cart
+    var itemName = $button.attr('data-item');
+    console.log('itemName: ', itemName);
 
-  // get the right item to reveal
-  var $itemToReveal = $('#' + itemName);
-  console.log('$itemToReveal: ', $itemToReveal);
+    // get the right item to reveal
+    var $itemToReveal = $('#' + itemName);
+    console.log('$itemToReveal: ', $itemToReveal);
 
-  $itemToReveal.removeClass('is-hidden');
+    $itemToReveal.removeClass('is-hidden');
 
-});
+  });
 
 });

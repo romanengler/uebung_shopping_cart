@@ -110,9 +110,9 @@ h1 {
   transform: translateX(-10%);
 }
 
-.cart{
+.cart {
   list-style: none;
-  }
+}
 
 .is_shown, .is_shown-by-hover {
   flex: 1 1 auto;
@@ -145,7 +145,7 @@ h1 {
   margin-right: 5px;
 }
 
-.popup_article_image{
+.popup_article_image {
   /* background-color: rgb(254, 125, 122); */
   margin-right: 10px;
   height: 40px;
@@ -229,11 +229,9 @@ h1 {
   align-self: center;
 }
 
-
-.is-hidden{
+.is-hidden {
   display: none;
 }
-
 
 @media (max-width: 850px) {
   .calender {
