@@ -36,6 +36,7 @@ h1 {
   justify-content: center;
   margin-top: 25px;
   flex-basis: 30%;
+  border-radius: 8px;
   background-color: rgba(217, 212, 212, 1);
 }
 
@@ -74,6 +75,7 @@ h1 {
   border: 3px solid rgb(15, 23, 46);
   font-size: 30px;
   text-align: center;
+  border-radius: 8px;
   transition: background-color 0.5s ease;
 }
 
@@ -137,6 +139,7 @@ h1 {
   flex-wrap: nowrap;
   justify-content: flex-start;
   align-items: center;
+  border-radius: 8px;
   background-color: rgba(216, 255, 172, 0.8);
   border: 1px solid rgba(255, 255, 255, 1);
   margin-right: 5px;
@@ -171,12 +174,14 @@ h1 {
   background-color: rgb(255, 255, 255);
   width: 80px;
   height: 40px;
+  border-radius: 8px;
 }
 
 .date_to {
   background-color: rgb(255, 255, 255);
   width: 80px;
   height: 40px;
+  border-radius: 8px;
 }
 
 .between_dates {
@@ -207,7 +212,21 @@ h1 {
 .boxes {
   background-color: rgba(233, 233, 233, 1);
   height: 100px;
+  border-radius: 8px;
   margin: 25px 25px 25px 25px;
+}
+
+.js-button {
+  background-color: rgb(254, 125, 122);
+  flex-basis: 10%;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 5px;
+  cursor: pointer;
+  border-radius: 8px;
+  height: 30px;
+  align-self: center;
 }
 
 
